@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 text-[#000] z-40 ">
       <div className="flex flex-start items-center w-full h-full 2xl:px-16">
-        <div className="md:hidden">
+        <div className="md:hidden ml-4">
           {nav ? (
             <AiOutlineClose
               size={25}
